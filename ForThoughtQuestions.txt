@@ -1,0 +1,12 @@
+Group: Jenn Le, Ashley Isles, Preston Tighe
+ ICA1 Questions
+
+ 1. Yes, because it makes the code more object-oriented.
+    It also helps prevent errors down the road that might be caused by
+    accessing properties directly.
+
+ 2. Yes, because it allows the use of getters to access the properties from
+    any method.
+
+ 3. We would iterate over the image folder and save the image names in the
+    imageNames array.
