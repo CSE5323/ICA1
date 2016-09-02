@@ -39,7 +39,7 @@
 -(UIImageView*)imageView{
     
     if(!_imageView)
-        _imageView = [[UIImageView alloc] initWithImage:[[ImageModel sharedInstance] getImageByIndex:0]];
+        _imageView = [[UIImageView alloc] initWithImage:[[ImageModel sharedInstance] getImageWithName:self.imageName]];
     return _imageView;
 }
 
